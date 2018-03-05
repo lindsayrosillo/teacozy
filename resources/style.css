@@ -2,7 +2,14 @@ body {
   font-family: Helvetica;
   font-size: 22px;
   opacity: 0.9;
+  background-color: black;
+  text-align: center;
+  margin: 0px;
 }
+h2, h4 {
+    font-family: Helvetica;
+    color: seashell;
+  }
 /** Header styles **/
 
 header {
@@ -36,5 +43,95 @@ header {
  /**Mission Container**/
 
  .mission {
-
+   display: flex;
+   background-image: url("./images/img-mission-background.jpg");
+   height: 700px;
+   background-position: center;
+   background-repeat: no-repeat;
+   justify-content: center;
  }
+
+ .missiontext {
+   background-color: black;
+   height: 125px;
+   width: 100%;
+   text-align: center;
+   align-self: center;
+ }
+
+ /**Tea containers**/
+
+.featuredtea {
+  display: flex;
+  justify-content: center;
+}
+ .teaofthemonth {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   align-items: flex-start;
+   width: 1000px;
+   padding-bottom: 20px;
+ }
+
+.teaofthemonth .box img {
+  height: 200px;
+  width: 300px;
+  align-self: center;
+}
+.teaofthemonth .box h4 {
+  margin-top: 10px;
+}
+
+/**locations**/
+
+.locations {
+  display: flex;
+  background-image: url(./images/img-locations-background.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0px;
+
+}
+.locationboxes {
+  display: flex;
+
+}
+.locationboxes .box {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  background-color: black;
+  color: seashell;
+  width: 300px;
+  height: 300px;
+  margin:  0px 40px;
+}
+
+.locationboxes .box  {
+  align-self: center;
+}
+
+.locationtitle {
+  align-self: flex-end;
+  width: 100%;
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/**footer and copyright**/
+footer {
+  height: 200px;
+  color: seashell;
+}
+
+.copy {
+  color: seashell;
+  text-align: left;
+  margin-left: 20px;
+}
