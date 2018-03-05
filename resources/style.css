@@ -1,8 +1,40 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+/** Header styles **/
+
 header {
   background: black;
   height: 69px;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  border-bottom: solid seashell 1px;
+  justify-content: space-between;
 }
 
-header img {
+.logo {
+  max-height: 50px;
+}
+
+.logo img {
   height: 50px;
 }
+
+.nav {
+  display: flex;
+}
+
+.nav span a {
+   color: seashell;
+   padding: 15px;
+ }
+
+ /**Mission Container**/
+
+ .mission {
+
+ }
