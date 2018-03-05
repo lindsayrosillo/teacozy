@@ -124,6 +124,12 @@ header {
   padding: 0px;
 }
 
+.secondrow {
+  display: flex;
+}
+.secondrow img {
+  padding-right: 40px;
+}
 /**footer and copyright**/
 footer {
   height: 200px;
